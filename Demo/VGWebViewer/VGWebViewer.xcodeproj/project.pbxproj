@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D60DC8171E8D8C0037015C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D60DC7171E8D8C0037015C /* UIKit.framework */; };
+		38D60DCA171E8D8C0037015C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D60DC9171E8D8C0037015C /* Foundation.framework */; };
+		38D60DCC171E8D8C0037015C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D60DCB171E8D8C0037015C /* CoreGraphics.framework */; };
+		38D60DD2171E8D8C0037015C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38D60DD0171E8D8C0037015C /* InfoPlist.strings */; };
+		38D60DD4171E8D8C0037015C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D60DD3171E8D8C0037015C /* main.m */; };
+		38D60DD8171E8D8C0037015C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D60DD7171E8D8C0037015C /* AppDelegate.m */; };
+		38D60DDA171E8D8C0037015C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D60DD9171E8D8C0037015C /* Default.png */; };
+		38D60DDC171E8D8C0037015C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D60DDB171E8D8C0037015C /* Default@2x.png */; };
+		38D60DDE171E8D8C0037015C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D60DDD171E8D8C0037015C /* Default-568h@2x.png */; };
+		38D60DE1171E8D8C0037015C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D60DE0171E8D8C0037015C /* ViewController.m */; };
+		38D60DE4171E8D8C0037015C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D60DE2171E8D8C0037015C /* ViewController.xib */; };
+		38D60DF1171E8DF40037015C /* VGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D60DF0171E8DF40037015C /* VGWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38D60DC4171E8D8C0037015C /* VGWebViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGWebViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D60DC7171E8D8C0037015C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38D60DC9171E8D8C0037015C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38D60DCB171E8D8C0037015C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38D60DCF171E8D8C0037015C /* VGWebViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VGWebViewer-Info.plist"; sourceTree = "<group>"; };
+		38D60DD1171E8D8C0037015C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38D60DD3171E8D8C0037015C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38D60DD5171E8D8C0037015C /* VGWebViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VGWebViewer-Prefix.pch"; sourceTree = "<group>"; };
+		38D60DD6171E8D8C0037015C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38D60DD7171E8D8C0037015C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38D60DD9171E8D8C0037015C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		38D60DDB171E8D8C0037015C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		38D60DDD171E8D8C0037015C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38D60DDF171E8D8C0037015C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38D60DE0171E8D8C0037015C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38D60DE3171E8D8C0037015C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		38D60DEF171E8DF40037015C /* VGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGWebViewController.h; sourceTree = "<group>"; };
+		38D60DF0171E8DF40037015C /* VGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D60DC1171E8D8C0037015C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D60DC8171E8D8C0037015C /* UIKit.framework in Frameworks */,
+				38D60DCA171E8D8C0037015C /* Foundation.framework in Frameworks */,
+				38D60DCC171E8D8C0037015C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D60DBB171E8D8C0037015C = {
+			isa = PBXGroup;
+			children = (
+				38D60DEB171E8DC10037015C /* VGWebViewController */,
+				38D60DCD171E8D8C0037015C /* VGWebViewer */,
+				38D60DC6171E8D8C0037015C /* Frameworks */,
+				38D60DC5171E8D8C0037015C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D60DC5171E8D8C0037015C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D60DC4171E8D8C0037015C /* VGWebViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D60DC6171E8D8C0037015C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D60DC7171E8D8C0037015C /* UIKit.framework */,
+				38D60DC9171E8D8C0037015C /* Foundation.framework */,
+				38D60DCB171E8D8C0037015C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38D60DCD171E8D8C0037015C /* VGWebViewer */ = {
+			isa = PBXGroup;
+			children = (
+				38D60DD6171E8D8C0037015C /* AppDelegate.h */,
+				38D60DD7171E8D8C0037015C /* AppDelegate.m */,
+				38D60DDF171E8D8C0037015C /* ViewController.h */,
+				38D60DE0171E8D8C0037015C /* ViewController.m */,
+				38D60DE2171E8D8C0037015C /* ViewController.xib */,
+				38D60DCE171E8D8C0037015C /* Supporting Files */,
+			);
+			path = VGWebViewer;
+			sourceTree = "<group>";
+		};
+		38D60DCE171E8D8C0037015C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D60DCF171E8D8C0037015C /* VGWebViewer-Info.plist */,
+				38D60DD0171E8D8C0037015C /* InfoPlist.strings */,
+				38D60DD3171E8D8C0037015C /* main.m */,
+				38D60DD5171E8D8C0037015C /* VGWebViewer-Prefix.pch */,
+				38D60DD9171E8D8C0037015C /* Default.png */,
+				38D60DDB171E8D8C0037015C /* Default@2x.png */,
+				38D60DDD171E8D8C0037015C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38D60DEB171E8DC10037015C /* VGWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38D60DEF171E8DF40037015C /* VGWebViewController.h */,
+				38D60DF0171E8DF40037015C /* VGWebViewController.m */,
+			);
+			name = VGWebViewController;
+			path = ../../VGWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D60DC3171E8D8C0037015C /* VGWebViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D60DE7171E8D8C0037015C /* Build configuration list for PBXNativeTarget "VGWebViewer" */;
+			buildPhases = (
+				38D60DC0171E8D8C0037015C /* Sources */,
+				38D60DC1171E8D8C0037015C /* Frameworks */,
+				38D60DC2171E8D8C0037015C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VGWebViewer;
+			productName = VGWebViewer;
+			productReference = 38D60DC4171E8D8C0037015C /* VGWebViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D60DBC171E8D8C0037015C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lanvige Jiang";
+			};
+			buildConfigurationList = 38D60DBF171E8D8C0037015C /* Build configuration list for PBXProject "VGWebViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38D60DBB171E8D8C0037015C;
+			productRefGroup = 38D60DC5171E8D8C0037015C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D60DC3171E8D8C0037015C /* VGWebViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D60DC2171E8D8C0037015C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D60DD2171E8D8C0037015C /* InfoPlist.strings in Resources */,
+				38D60DDA171E8D8C0037015C /* Default.png in Resources */,
+				38D60DDC171E8D8C0037015C /* Default@2x.png in Resources */,
+				38D60DDE171E8D8C0037015C /* Default-568h@2x.png in Resources */,
+				38D60DE4171E8D8C0037015C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D60DC0171E8D8C0037015C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D60DD4171E8D8C0037015C /* main.m in Sources */,
+				38D60DD8171E8D8C0037015C /* AppDelegate.m in Sources */,
+				38D60DE1171E8D8C0037015C /* ViewController.m in Sources */,
+				38D60DF1171E8DF40037015C /* VGWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38D60DD0171E8D8C0037015C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D60DD1171E8D8C0037015C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38D60DE2171E8D8C0037015C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D60DE3171E8D8C0037015C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D60DE5171E8D8C0037015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38D60DE6171E8D8C0037015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38D60DE8171E8D8C0037015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VGWebViewer/VGWebViewer-Prefix.pch";
+				INFOPLIST_FILE = "VGWebViewer/VGWebViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38D60DE9171E8D8C0037015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VGWebViewer/VGWebViewer-Prefix.pch";
+				INFOPLIST_FILE = "VGWebViewer/VGWebViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D60DBF171E8D8C0037015C /* Build configuration list for PBXProject "VGWebViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D60DE5171E8D8C0037015C /* Debug */,
+				38D60DE6171E8D8C0037015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D60DE7171E8D8C0037015C /* Build configuration list for PBXNativeTarget "VGWebViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D60DE8171E8D8C0037015C /* Debug */,
+				38D60DE9171E8D8C0037015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D60DBC171E8D8C0037015C /* Project object */;
+}
